@@ -48,3 +48,12 @@ const navItem4 = document.querySelector('header nav a:nth-child(4)').textContent
 const navItem5 = document.querySelector('header nav a:nth-child(5)').textContent = "About";
 const navItem6 = document.querySelector('header nav a:nth-child(6)').textContent = "Contact";
 
+const ctaH1 = document.querySelector('.cta h1').textContent = "DOM Is Awesome";
+const ctaButton = document.querySelector('.cta button').textContent = "Get Started"
+const ctaImg = document.querySelector('.cta img');
+ctaImg.src="img/header-img.png";
+
+const featureH4 = document.querySelector('.main-content .top-content .text-content:nth-child(1) h4').textContent = "Features";
+const featureContent = document.querySelector('.main-content .top-content .text-content:nth-child(1) p').textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+const aboutH4 = document.querySelector('.main-content .top-content .text-content:nth-child(2) h4').textContent = "About";
+const aboutContent = document.querySelector('.main-content .top-content .text-content:nth-child(2) p').textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
