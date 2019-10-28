@@ -47,6 +47,10 @@ const navItem3 = document.querySelector('header nav a:nth-child(3)').textContent
 const navItem4 = document.querySelector('header nav a:nth-child(4)').textContent = "Features";
 const navItem5 = document.querySelector('header nav a:nth-child(5)').textContent = "About";
 const navItem6 = document.querySelector('header nav a:nth-child(6)').textContent = "Contact";
+const navItems = document.querySelectorAll('header nav a');
+navItems.forEach(element => {
+  element.style.color = "green"
+})
 
 const ctaH1 = document.querySelector('.cta h1').textContent = "DOM Is Awesome";
 const ctaButton = document.querySelector('.cta button').textContent = "Get Started"
@@ -75,3 +79,13 @@ contactContent[1].textContent = "1 (888) 888-8888";
 contactContent[2].textContent = "sales@greatidea.io";
 
 const footerCopyright = document.querySelector('footer p').textContent = "Copyright Great Idea! 2018";
+
+const prependText = document.createElement('a');
+prependText.textContent = "Home";
+const parentElement = document.querySelector('nav');
+parentElement.prepend(prependText)
+
+const appendText = document.createElement("a");
+appendText.textContent = "Careers";
+const newElement = document.querySelector('nav')
+newElement.appendChild(appendText);
