@@ -67,3 +67,11 @@ const productH1 = document.querySelector('.bottom-content .text-content:nth-chil
 const productContent = document.querySelector('.bottom-content .text-content:nth-child(2) p').textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 const visionH1 = document.querySelector('.bottom-content .text-content:nth-child(3) h4').textContent = "Vision";
 const visionContent = document.querySelector('.bottom-content .text-content:nth-child(3) p').textContent ="Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const contactH4 = document.querySelector('.contact h4').textContent = "Contact";
+const contactContent = document.querySelectorAll('.contact p');
+contactContent[0].textContent = "123 Way 456 Street Somewhere, USA";
+contactContent[1].textContent = "1 (888) 888-8888";
+contactContent[2].textContent = "sales@greatidea.io";
+
+const footerCopyright = document.querySelector('footer p').textContent = "Copyright Great Idea! 2018";
