@@ -57,3 +57,13 @@ const featureH4 = document.querySelector('.main-content .top-content .text-conte
 const featureContent = document.querySelector('.main-content .top-content .text-content:nth-child(1) p').textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 const aboutH4 = document.querySelector('.main-content .top-content .text-content:nth-child(2) h4').textContent = "About";
 const aboutContent = document.querySelector('.main-content .top-content .text-content:nth-child(2) p').textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+let middleImg = document.getElementById("middle-img");
+middleImg.setAttribute('src','img/mid-page-accent.jpg');
+
+const servicesH1 = document.querySelector('.bottom-content .text-content:nth-child(1) h4').textContent = "Services";
+const servicesContent = document.querySelector('.bottom-content .text-content:nth-child(1) p').textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+const productH1 = document.querySelector('.bottom-content .text-content:nth-child(2) h4').textContent = "Product"
+const productContent = document.querySelector('.bottom-content .text-content:nth-child(2) p').textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+const visionH1 = document.querySelector('.bottom-content .text-content:nth-child(3) h4').textContent = "Vision";
+const visionContent = document.querySelector('.bottom-content .text-content:nth-child(3) p').textContent ="Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
