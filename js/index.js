@@ -90,3 +90,4 @@ const appendText = document.createElement("a");
 appendText.textContent = "Careers";
 const newElement = document.querySelector('nav')
 newElement.appendChild(appendText);
+
