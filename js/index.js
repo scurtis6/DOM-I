@@ -52,7 +52,8 @@ navItems.forEach(element => {
   element.style.color = "green"
 })
 
-const ctaH1 = document.querySelector('.cta h1').textContent = "DOM Is Awesome";
+const ctaH1 = document.querySelector('.cta h1');
+ctaH1.innerHTML = "DOM <br>Is <br>Awesome";
 const ctaButton = document.querySelector('.cta button').textContent = "Get Started"
 const ctaImg = document.querySelector('.cta img');
 ctaImg.src="img/header-img.png";
@@ -66,7 +67,7 @@ let middleImg = document.getElementById("middle-img");
 middleImg.setAttribute('src','img/mid-page-accent.jpg');
 
 const servicesH1 = document.querySelector('.bottom-content .text-content:nth-child(1) h4').textContent = "Services";
-const servicesContent = document.querySelector('.bottom-content .text-content:nth-child(1) p').textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+const servicesContent = document.querySelector('.bottom-content .text-content:nth-child(1) p').textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 const productH1 = document.querySelector('.bottom-content .text-content:nth-child(2) h4').textContent = "Product"
 const productContent = document.querySelector('.bottom-content .text-content:nth-child(2) p').textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 const visionH1 = document.querySelector('.bottom-content .text-content:nth-child(3) h4').textContent = "Vision";
@@ -74,7 +75,7 @@ const visionContent = document.querySelector('.bottom-content .text-content:nth-
 
 const contactH4 = document.querySelector('.contact h4').textContent = "Contact";
 const contactContent = document.querySelectorAll('.contact p');
-contactContent[0].textContent = "123 Way 456 Street Somewhere, USA";
+contactContent[0].innerHTML = "123 Way 456 Street <br>Somewhere, USA";
 contactContent[1].textContent = "1 (888) 888-8888";
 contactContent[2].textContent = "sales@greatidea.io";
 
@@ -89,3 +90,4 @@ const appendText = document.createElement("a");
 appendText.textContent = "Careers";
 const newElement = document.querySelector('nav')
 newElement.appendChild(appendText);
+
